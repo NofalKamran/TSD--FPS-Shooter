@@ -1,0 +1,32 @@
+### -1.9.2
+
+# Added
+
+-ADD: Option in GameData to determine how the bot eliminations affects the real player stats to avoid using bots to level up accounts.
+-ADD: Basic Anti-Cheat Toolkit (ACTk) Unity plugin integration to prevent players to be able modify the player health, ammo, kits count with cheat engines.
+
+# Improvements
+
+-IMPROVED: Smoother camera motion when move the character and rotate the camera at the same time.
+-IMPROVED: Grenade fire sequence using Animator.
+-IMPROVED: Now is possible to preview different AI idle animations in the editor from the inspector of bl_AIAnimation.cs
+-IMPROVED: Added aim multiplier value in bl_WeaponSway inspector in order to more easily adjust the weapon delay effect when the player is aiming.
+-IMPROVED: Added aim rotation multiplier value in bl_WeaponBobSettings inspector in order to more easily adjust the weapon bob rotation when aiming.
+-IMPROVED: Match player scoreboard popup menu.
+
+# Fixes
+
+-FIX: Crosshair Scale value was not affecting the crosshair size at all.
+-FIX: Can't modify the player left arm after using the Add Player tutorial.
+-FIX: Console error when open the settings menu in offline mode.
+-FIX: FPWeapon fire sound immediately stop after switching weapons.
+-FIX: Match player scoreboard pop-up menu was not working.
+-FIX: The room list in the lobby doesn't update after changing server region causing showing rooms from another region.
+-FIX: Removed player camera jerky/stutter render effect when moving and rotating the player.
+-FIX: Kill Camera Orbit Mode doesn't focus on the killer player.
+
+# New Addons
+
+- Anti-Cheat and Reports: Advance integrations of the Anti-Cheat Toolking asset and an custom user report system,
+with the advance integration of the Anti-Cheat Toolking players using Speedhack, Code Injection, Memory Injection, and or Wallhack will be automatically banned,
+and with the custom user report system players will be able to manually report hackers/cheaters from the game scoreboard menu.
